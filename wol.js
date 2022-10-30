@@ -97,7 +97,7 @@ app.post("/", (req,res) => {
 	}
 
 	//Wrong authorization provided
-	if(req.get('authorization') != 'ypWdWpJ7ghG1vLZLmj'){
+	if(req.get('authorization') != KEY){
 		console.log("Wrong authorization");
 		return res.status(403).json({error: 'Wrong credentials provided!'});
 	}
