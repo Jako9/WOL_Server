@@ -47,9 +47,9 @@ If your script is not running properly you can always try to run it manually via
 node wol.js -port PORT -key KEY
 ```
 The most common type of errors are:
-1. The port is already in use
+1. The port is already in use\
 In this case, just assign another port and try again
-2. The imports fail
+2. The imports fail\
 Just try reinstall the requirenments and save them to your local folder
 ```sh
 npm install requirenments.txt --save
