@@ -52,7 +52,7 @@ In this case, just assign another port and try again
 2. The imports fail\
 Just try reinstall the requirenments and save them to your local folder
 ```sh
-npm install requirenments.txt --save
+npm install package.json --save
 ```
 
 ## Issues/Questions
