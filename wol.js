@@ -25,7 +25,6 @@ if(args.port === undefined || isNaN(args.port) || args.port < 0  ||  args.port >
 const PORT = args.port;
 const KEY = args.key == undefined ? "" : args.key;
 
-console.log(KEY);
 console.log("Starting WOL-Service...");
 
 app.use(bodyParser.json());
